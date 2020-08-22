@@ -1,0 +1,90 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.form-student,
+div.list-student {
+    border: 1px solid black;
+    margin: 25px;
+    padding: 25px;
+    float: left;
+}
+
+div.list-student {
+    width: 600px;
+}
+
+div.form-student {
+    width: 400px;
+}
+
+div.form-student h3,
+div.list-student h3 {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+div.form-student label {
+    width: 100px;
+    float: left;
+}
+
+div.form-student input[type="text"],
+button {
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+}
+
+div.form-student button {
+    margin-top: 15px;
+}
+
+div.list-student {
+    width: 750px;
+    border: 1px solid black;
+}
+
+div.list-student table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+div.form-student .container {
+    width: 400px;
+    margin: auto;
+}
+
+div.form-student .container h3 {
+    text-align: center;
+}
+
+div.form-student .container label {
+    width: 30%;
+    padding: 0px;
+}
+
+div.form-student .container input[type="text"] {
+    width: 66%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.list-student h3 {
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
